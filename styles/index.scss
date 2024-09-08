@@ -1,0 +1,68 @@
+@import '~bootstrap/scss/bootstrap';
+@import '../public/assets/css/fontAwesome5Pro.css';
+//@import "react-image-lightbox/style.css";
+//@import '../node_modules/react-modal-video/scss/modal-video.scss';
+@import '../public/assets/css/flaticon.css';
+@import 'react-toastify/dist/ReactToastify.css';
+@import '../public/assets/scss/main.scss';
+
+/* Alert.scss */
+.alertx {
+    position: fixed;
+    top: 400px;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background-color: #5D4A89; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    max-height: 600px;
+
+    text-align: center;
+    z-index: 100;
+  
+    h2 {
+      font-size: 24px;
+      margin-top: 0;
+      color: #fff; /* White text color */
+
+    }
+  
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: whitesmoke; /* White text color */
+
+    }
+  
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: none;
+      border: none;
+      font-size: 24px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .action-button {
+        background-color: #fff;
+        color: #007bff; /* Blue text color */
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 20px; /* Add space between the button and the text */
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    
+        &:hover {
+          background-color: #007bff; /* Blue background color on hover */
+          color: #fff; /* White text color on hover */
+        }
+      }
+  }
+  
