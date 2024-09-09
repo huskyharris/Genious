@@ -17,9 +17,9 @@ const TeamSection = () => {
             {TeamList &&
                <div className="row">
                 {TeamList.slice(0, 7).map((item, num) => (
-                  <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 flex " key={num}>
+                  <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 flex  " key={num}>
                      <div className="team-single style-4 mb-30">
-                        <div className="team-member-wrapper" style={{display:"flex"}}>
+                        <div className="team-member-wrapper  justify-content-center" style={{display:"flex"}}>
                            <div>
                            <div className="member-img">
                               <a><img src={item.teamImg} alt=""/></a>

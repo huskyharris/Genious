@@ -21,7 +21,7 @@ const index = () => {
   return (
     <main>
       <HeaderTwo />
-      <WhatsAppIcon></WhatsAppIcon>
+      {/* <WhatsAppIcon></WhatsAppIcon> */}
       <HeroSliderTwo />
       <AboutSectionThree></AboutSectionThree>
       <ServiceSectionTwo/>

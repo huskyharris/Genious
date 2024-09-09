@@ -33,7 +33,7 @@ const HeaderTwo = () => {
 
     return (
         <>
-            <header className="header2">
+            <header className="header2 ">
                 <div id="header-sticky" className="meta-header-area">
                     <div className="container">
                         <div className="meta-header-inner">
