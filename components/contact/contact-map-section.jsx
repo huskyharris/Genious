@@ -49,8 +49,8 @@ const ContactMapSection = () => {
                         <i className="fas fa-envelope-open"></i>
                       </div>
                       <p>
-                        <a href="mailto:info@mk-fabrics.eu">
-                          info@Bauingenious.de
+                        <a href="mailto:info@bauingenious-service.de">
+                        nfo@bauingenious-service.de
                         </a>
                       </p>
                     </div>
