@@ -10,8 +10,8 @@ const ContactMapSection = () => {
         >
           <div className="col-lg-8">
             <div className="section-title text-center">
-              <span className="section-subtitle">contact</span>
-              <h2 className="section-main-title mb-45">get in touch</h2>
+              <span className="section-subtitle">Kontakt</span>
+              <h2 className="section-main-title mb-45">melden sie sich</h2>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ const ContactMapSection = () => {
                       </div>
                       <p>
                         <a href="mailto:info@bauingenious-service.de">
-                        nfo@bauingenious-service.de
+                        info@bauingenious-service.de
                         </a>
                       </p>
                     </div>

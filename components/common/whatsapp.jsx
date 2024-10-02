@@ -4,12 +4,14 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 const WhatsAppIcon = () => {
   const handleClick = () => {
-    window.open('https://wa.me/+4917624329949', '_blank');
+  //  window.open('https://wa.me/+4917624329949', '_blank');
   };
 
   return (
     <div className="whatsapp-icon" onClick={handleClick}>
-      <IoLogoWhatsapp style={{zIndex:"100" , color:"#25D366" , fontSize:"80px" , position:"fixed" , top:"650px"  }}></IoLogoWhatsapp>
+      <div className='border bg-red-500 z-100' style={{zIndex:"100" , backgroundColor:"#25D366" , fontSize:"60px" , position:"fixed" , top:"200px" ,right:"0"  }}>
+      <IoLogoWhatsapp style={{zIndex:"100" , color:"white" , fontSize:"50px"   }}></IoLogoWhatsapp>
+      </div>
     </div>
   );
 };

@@ -31,7 +31,7 @@ const ContactFormSection = () => {
                                             </div>
                                         </div>
                                         <div className="contact-btn">
-                                            <button type='submit' className="fill-btn"><i className="fal fa-farm"></i><span>Get a Quote</span></button>
+                                            <button type='submit' className="fill-btn"><i className="fal fa-farm"></i><span>Senden</span></button>
                                         </div>
                                     </form>
                                 </div>
