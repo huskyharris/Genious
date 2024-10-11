@@ -131,7 +131,7 @@ const datenschutz = () => {
           <p className="mb-4">
             Bauingenious GmbH
             <br />
-            Telefon: +49 (0) 2161 90 43 23 - 3, +49 (0) 160 8308766
+            Telefon: +49 1577 142 6549 
             <br />
             E-Mail:{" "}
             <a href="mailto:info@Bauingenious.de" className="text-blue-500">

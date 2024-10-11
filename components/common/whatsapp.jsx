@@ -4,7 +4,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 const WhatsAppIcon = () => {
   const handleClick = () => {
-  //  window.open('https://wa.me/+4917624329949', '_blank');
+     window.open('https://wa.me/+4915771426549', '_blank');
   };
 
   return (
