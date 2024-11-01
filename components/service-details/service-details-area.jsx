@@ -188,10 +188,10 @@ const ServiceDetailsArea = ({ item }) => {
                     nichts mehr im Weg.
                   </p>
                 </section>
-                <div className="service-sub-image">
+               {/*  <div className="service-sub-image">
                   <img src="/assets/img/service/service-sub1.jpg" alt="" />
                   <img src="/assets/img/service/service-sub2.jpg" alt="" />
-                </div>
+                </div> */}
               
               </div>
             </div>

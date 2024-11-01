@@ -19,11 +19,11 @@ const nav_menus_list = [
   {
     link: '/service',
     title: 'Services',
-    hasDropdown: false,
+    hasDropdown: true,
     megamenu: false,
     dropdownItems: [
-      { link: '/service', title: 'Services' },
-      { link: '/service-details', title: 'Service Details' },
+      { link: '/service', title: 'Sanierung' },
+      { link: '/abdichtungstechnik', title: 'Abdichtungstechnik' },
     ]
   },
   

@@ -64,7 +64,7 @@ const HeaderTwo = () => {
                                     </div>
                                 </div>
                                 <div className="main-menu main-menu2">
-                                    <nav id="mobile-menu-sticky ">
+                                    <nav id="mobile-menu-sticky  ">
                                         <NavMenu />
                                     </nav>
                                 </div>
